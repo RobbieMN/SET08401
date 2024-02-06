@@ -15,12 +15,14 @@ h2{
     color: brown;
 }
 
-.TestClass{
+.button-container{
 
-    color:chartreuse
+    text-align: center;
 }
 
-#TestId{
+#TestButton{
 
     color: aqua;
+    border: none;
+    padding: 10px 20px;
 }
