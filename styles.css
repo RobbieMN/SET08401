@@ -1,7 +1,11 @@
 body {
-    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 header, footer {
@@ -15,14 +19,28 @@ h2{
     color: brown;
 }
 
-.button-container{
-
+.button-container {
     text-align: center;
 }
 
-#TestButton{
-
-    color: aqua;
-    border: none;
+#Test Button {
     padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #800080; /* Purple background */
+    border: 2px solid black; /* Black border */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-style: italic; /* Italic text */
+}
+
+#Test Button:hover {
+    background-color: #5d005d; /* Darker shade of purple for hover effect */
+}
+
+#HomeButton{
+
+    text-align: right;
+
 }
