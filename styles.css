@@ -26,8 +26,8 @@ h2{
 #Test Button {
     padding: 10px 20px;
     font-size: 18px;
-    color: #fff;
-    background-color: #800080; /* Purple background */
+    color: #ffffff;
+    background-color: #8e008e; /* Purple background */
     border: 2px solid black; /* Black border */
     border-radius: 5px;
     cursor: pointer;
@@ -36,7 +36,7 @@ h2{
 }
 
 #Test Button:hover {
-    background-color: #5d005d; /* Darker shade of purple for hover effect */
+    background-color: #470047; /* Darker shade of purple for hover effect */
 }
 
 #HomeButton{
